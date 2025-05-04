@@ -13,7 +13,7 @@
                     <Duration>00:00:15</Duration>
                     <MediaFiles>
                       <MediaFile type="video/mp4" width="640" height="360" delivery="progressive">
-                        <![CDATA[https://example.com/your_ad.mp4]]>
+                        <![CDATA[https://jaarchi.dorsa.app/api/v1/ads/video/?tag_ids=wJ9VsYlN&tag_ids=I1xMO6Qo&tag_ids=mIHErgoE&tag_ids=M1sfZFJy&tag_ids=IyE0wDmX&tag_ids=ttG71lAL&tag_ids=gXLShFE7&tag_ids=4drVPZEJ&tag_ids=NGeBCxvx&tag_ids=ZgXNH9Cj&tag_ids=Xr8bIkHk&tag_ids=eeaRLROL&tag_ids=foDBP6Wp&tag_ids=pv7E29z6]]>
                       </MediaFile>
                     </MediaFiles>
                   </Linear>
