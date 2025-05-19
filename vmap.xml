@@ -6,41 +6,6 @@ https://pubads.g.doubleclick.net/gampad/ads?slotname=/21775744923/external/vmap_
 </vmap:AdTagURI>
 </vmap:AdSource>
 </vmap:AdBreak>
-  <vmap:AdBreak timeOffset="00:00:10" breakType="nonlinear" breakId="slider-11031-Z857">
-		<vmap:AdSource id="11031-Z857" allowMultipleAds="false" followRedirects="true">
-			<vmap:VASTAdData>
-				<VAST version="3.0">
-					<Ad id="28160-V572">
-						<InLine>
-							<AdSystem></AdSystem>
-							<AdTitle>
-								<![CDATA[slider_ad]]>
-							</AdTitle>
-							<Creatives>
-								<Creative>
-									<NonLinearAds>
-										<TrackingEvents></TrackingEvents>
-										<NonLinear width="0" height="0" expandedWidth="0" expandedHeight="0">
-											<NonLinearClickThrough>
-												<![CDATA[https://plus.sabavision.com/click/acc41016-7df1-4275-b1ac-134681db3662/11031-Z857/sabavision/28160-V572/a6cc4ee9-f9a1-4ba2-9318-39c3dc670a9d?adType=video&channel=18995577&cid=1dd26b5f-db50-44dc-a289-bd87c385280f&city=other&clientInfo=138.0%7C0.0%7C4%7C1%7C7%7C2%7C1&country=NL&domain=aparat.com&imp=M4rDkpDuDWXAcbioxPsfJgEg7Y_nIWLDZ3zK8rE9lXuFt1S5QTHq5fLY2jTYO8SHyk2LgV_04IWeeLkmkfa_5SjFl2q3iay7L0G-j2zIQX-NOeq3xCjtY7F9Q3JVgVJx4vuATaO_MQ2qvl6uGt3pOE2nNujnwi-dBz9JopmNzYkHEWG_i2BeOv0IjxoiRLe4En_KrbSqZ5aki88OvcIAMnfS0WCDR7bP3vL4fC459jYwFw6GV2rti4flCDEB0oiWZHjvWrOHZtx08hMkBhuUX_8tC7JgSXhgz6U8Sy0D_oFtLcCO5JUaoyvDxFXArYV2Z0BU70UlE24bs2cIBI4Z-9TY1EnWuogkdzm8NcgqSW_wxvA8pUE7n2ico2-sYLG0a880vRyiqWgsjpX8XwnOqEo3Q2FZKFzHENJj1AAm6_4aLiEQnRAaLvC3uu7xf_osjlEfZNQ3gXwovio2P9ATJTUuCh6S7cDZawDjpOiGfUDBgCR0xWFBmp7LIF_SizCs87zFPZq712WLOyC0qiH6HUslkPvdS1lZvNAZwmcn35RbU268p_G7lcD5MNxv7PGvEonT-DfJc7STvEAVNUXukwLANSS_R4hqDvY7l9vuD_xOEb_uCf5USLnkyf6xMHmjN-ry7QJFTd7izkaGRri9pzzLwwNJuXn_-g&isp=Other&pid=39942-P925&programType=video&region=other&resolution=1920x1080&sid=d7fcacbe-9cc1-4d8a-955d-cf641b75d5da&sspID=plus.sabavision.com&sv=0NQFa5FziCbfBUH4c8wdjyHl9JhcRXmoSqU5mAUGd3ulBKrIQguB8CewOAd-jFiYhbcVC465GIgGEr1XAAH5Bw&time=1747642314&cats=IAB20&adCats=IAB20&placement=PRE_ROLL&impType=click-sliderLanding&target=https%3A%2F%2Ftrc.metrix.ir%2F28yz8g%2F]]>
-											</NonLinearClickThrough>
-											<IFrameResource></IFrameResource>
-											<HTMLResource>
-												<![CDATA[{"button":"خدمات بانکی آنلاین با ویپاد","desc":"خدمات بانکی آنلاین با ویپاد","expandTimeout":10000,"iconTimeout":7000,"image":"https://static.cdn.asset.filimo.com/vision-file/bbc8ebbf-e812-4120-977d-18104e2f05e8-logo.jpg","target":"https://plus.sabavision.com/click/acc41016-7df1-4275-b1ac-134681db3662/11031-Z857/sabavision/28160-V572/a6cc4ee9-f9a1-4ba2-9318-39c3dc670a9d?adType=video&channel=18995577&cid=1dd26b5f-db50-44dc-a289-bd87c385280f&city=other&clientInfo=138.0%7C0.0%7C4%7C1%7C7%7C2%7C1&country=NL&domain=aparat.com&imp=M4rDkpDuDWXAcbioxPsfJgEg7Y_nIWLDZ3zK8rE9lXuFt1S5QTHq5fLY2jTYO8SHyk2LgV_04IWeeLkmkfa_5SjFl2q3iay7L0G-j2zIQX-NOeq3xCjtY7F9Q3JVgVJx4vuATaO_MQ2qvl6uGt3pOE2nNujnwi-dBz9JopmNzYkHEWG_i2BeOv0IjxoiRLe4En_KrbSqZ5aki88OvcIAMnfS0WCDR7bP3vL4fC459jYwFw6GV2rti4flCDEB0oiWZHjvWrOHZtx08hMkBhuUX_8tC7JgSXhgz6U8Sy0D_oFtLcCO5JUaoyvDxFXArYV2Z0BU70UlE24bs2cIBI4Z-9TY1EnWuogkdzm8NcgqSW_wxvA8pUE7n2ico2-sYLG0a880vRyiqWgsjpX8XwnOqEo3Q2FZKFzHENJj1AAm6_4aLiEQnRAaLvC3uu7xf_osjlEfZNQ3gXwovio2P9ATJTUuCh6S7cDZawDjpOiGfUDBgCR0xWFBmp7LIF_SizCs87zFPZq712WLOyC0qiH6HUslkPvdS1lZvNAZwmcn35RbU268p_G7lcD5MNxv7PGvEonT-DfJc7STvEAVNUXukwLANSS_R4hqDvY7l9vuD_xOEb_uCf5USLnkyf6xMHmjN-ry7QJFTd7izkaGRri9pzzLwwNJuXn_-g&isp=Other&pid=39942-P925&programType=video&region=other&resolution=1920x1080&sid=d7fcacbe-9cc1-4d8a-955d-cf641b75d5da&sspID=plus.sabavision.com&sv=0NQFa5FziCbfBUH4c8wdjyHl9JhcRXmoSqU5mAUGd3ulBKrIQguB8CewOAd-jFiYhbcVC465GIgGEr1XAAH5Bw&time=1747642314&cats=IAB20&adCats=IAB20&placement=PRE_ROLL\u0026impType=click-sliderLanding\u0026target=https%3A%2F%2Ftrc.metrix.ir%2F28yz8g%2F","title":"در هر زمان، از هر مکان"}]]>
-											</HTMLResource>
-										</NonLinear>
-									</NonLinearAds>
-								</Creative>
-							</Creatives>
-							<Description></Description>
-							<Survey></Survey>
-						</InLine>
-					</Ad>
-				</VAST>
-			</vmap:VASTAdData>
-		</vmap:AdSource>
-		<TrackingEvents></TrackingEvents>
-	</vmap:AdBreak>
 <vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
 <vmap:AdSource id="midroll-1-ad-1" allowMultipleAds="false" followRedirects="true">
 <vmap:AdTagURI templateType="vast3">
