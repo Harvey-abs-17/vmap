@@ -3,84 +3,9 @@
 	xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0.1">
 	<vmap:AdBreak breakType="linear" timeOffset="start">
 		<vmap:AdSource allowMultipleAds="true">
-			<vmap:VASTAdData>
-				<VAST version="3.0">
-					<Ad id="574">
-						<InLine>
-							<AdSystem>
-								<![CDATA[Adexo Ad Server]]>
-							</AdSystem>
-							<AdTitle>
-								<![CDATA[کلیک کنید]]>
-							</AdTitle>
-							<Impression id="imp1">
-								<![CDATA[https://api.adexo.ir/impression/count?campaign_id=574&ad_id=2222&site_id=455&widget_id=1467]]>
-							</Impression>
-							<Creatives>
-								<Creative id="2222" adId="creative_ad_id">
-									<Linear skipoffset="00:00:06">
-										<Duration>00:00:15</Duration>
-										<VideoClicks>
-											<ClickThrough>
-												<![CDATA[https://panel.adexo.ir/api/v1/main/redirect?campaign_id=574&ad_id=2222&site_id=455&widget_id=1467&url=https%3A%2F%2Ftmk.ir%3Futm_source%3Dadexo%26utm_campaign%3D574%26utm_medium%3Dpreroll%26utm_content%3Dtmk.ir%26utm_term%3D2222]]>
-											</ClickThrough>
-											<ClickTracking>
-												<![CDATA[https://panel.adexo.ir/api/v1/main/click?campaign_id=574&ad_id=2222&site_id=455&widget_id=1467]]>
-											</ClickTracking>
-										</VideoClicks>
-										<MediaFiles>
-											<MediaFile delivery="progressive" type="video/mp4" height="720" width="1280" bitrate="2000">
-												<![CDATA[https://adexo.89857.ir.cdn.ir/storage/upload/2025/05/10//video_fyoddLxdNTkOu88i.mp4]]>
-											</MediaFile>
-										</MediaFiles>
-									</Linear>
-								</Creative>
-							</Creatives>
-						</InLine>
-					</Ad>
-				</VAST>
-			</vmap:VASTAdData>
-		</vmap:AdSource>
-	</vmap:AdBreak>
-	<vmap:AdBreak breakType="linear" timeOffset="start">
-		<vmap:AdSource allowMultipleAds="true">
-			<vmap:VASTAdData>
-				<VAST version="3.0">
-					<Ad id="575">
-						<InLine>
-							<AdSystem>
-								<![CDATA[Adexo Ad Server]]>
-							</AdSystem>
-							<AdTitle>
-								<![CDATA[کلیک کنید]]>
-							</AdTitle>
-							<Impression id="imp1">
-								<![CDATA[https://api.adexo.ir/impression/count?campaign_id=575&ad_id=2233&site_id=455&widget_id=1467]]>
-							</Impression>
-							<Creatives>
-								<Creative id="2233" adId="creative_ad_id">
-									<Linear skipoffset="00:00:06">
-										<Duration>00:00:15</Duration>
-										<VideoClicks>
-											<ClickThrough>
-												<![CDATA[https://panel.adexo.ir/api/v1/main/redirect?campaign_id=575&ad_id=2233&site_id=455&widget_id=1467&url=https%3A%2F%2Ftmk.ir%3Futm_source%3Dadexo%26utm_campaign%3D575%26utm_medium%3Dpreroll%26utm_content%3Dtmk.ir%26utm_term%3D2233]]>
-											</ClickThrough>
-											<ClickTracking>
-												<![CDATA[https://panel.adexo.ir/api/v1/main/click?campaign_id=575&ad_id=2233&site_id=455&widget_id=1467]]>
-											</ClickTracking>
-										</VideoClicks>
-										<MediaFiles>
-											<MediaFile delivery="progressive" type="video/mp4" height="720" width="1280" bitrate="2000">
-												<![CDATA[https://adexo.89857.ir.cdn.ir/storage/upload/2025/05/10//video_Ijlq0ktXPTYcxpNy.mp4]]>
-											</MediaFile>
-										</MediaFiles>
-									</Linear>
-								</Creative>
-							</Creatives>
-						</InLine>
-					</Ad>
-				</VAST>
-			</vmap:VASTAdData>
+      			<vmap:AdTagURI templateType="vast3">
+        			<![CDATA[https://harvey-abs-17.github.io/vmap/multipleads.xml]]>
+      			</vmap:AdTagURI>
 		</vmap:AdSource>
 	</vmap:AdBreak>
 	<vmap:AdBreak breakType="linear" timeOffset="00:15:00.000">
