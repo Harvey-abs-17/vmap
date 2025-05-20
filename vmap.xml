@@ -41,10 +41,7 @@
 				</VAST>
 			</vmap:VASTAdData>
 		</vmap:AdSource>
-	</vmap:AdBreak>
-	<vmap:AdBreak breakType="linear" timeOffset="00:00:00.100">
-		<vmap:AdSource allowMultipleAds="true">
-			<vmap:VASTAdData>
+					<vmap:VASTAdData>
 				<VAST version="3.0">
 					<Ad id="574">
 						<InLine>
@@ -81,7 +78,6 @@
 					</Ad>
 				</VAST>
 			</vmap:VASTAdData>
-		</vmap:AdSource>
 	</vmap:AdBreak>
 	<vmap:AdBreak breakType="linear" timeOffset="00:15:00.000">
 		<vmap:AdSource allowMultipleAds="true">
