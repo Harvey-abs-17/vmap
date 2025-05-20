@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <vmap:VMAP
 	xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0.1">
 	<vmap:AdBreak breakType="linear" timeOffset="start">
