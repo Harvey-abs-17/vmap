@@ -50,7 +50,7 @@
 								<![CDATA[https://api.adexo.ir/impression/count?campaign_id=603&ad_id=2396&site_id=455&widget_id=1467]]>
 							</Impression>
 							<Creatives>
-								<Creative id="2396" adId="creative_ad_id">
+								<Creative id="2396" adId="creative_ad_id2">
 									<Linear skipoffset="00:00:06">
 										<Duration>00:00:10</Duration>
 										<VideoClicks>
