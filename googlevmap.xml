@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vmap:VMAP version="1.0">
 	<vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll">
 		<vmap:AdSource id="preroll-ad-1" allowMultipleAds="false" followRedirects="true">
