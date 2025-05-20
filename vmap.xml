@@ -2,7 +2,7 @@
 <vmap:VMAP
 	xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0.1">
 	<vmap:AdBreak breakType="linear" timeOffset="start">
-		<vmap:AdSource allowMultipleAds="true" followRedirects="true">
+		<vmap:AdSource allowMultipleAds="false" followRedirects="true">
       			<vmap:AdTagURI templateType="vast3">
         			<![CDATA[https://harvey-abs-17.github.io/vmap/multipleads.xml]]>
       			</vmap:AdTagURI>
