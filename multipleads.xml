@@ -28,4 +28,28 @@
 
   <!-- Second Ad -->
 
+    <Ad id="603">
+    <InLine>
+      <AdSystem>Adexo Ad Server</AdSystem>
+      <AdTitle>کلیک کنید</AdTitle>
+      <Impression><![CDATA[https://api.adexo.ir/impression/count?campaign_id=603&ad_id=2396&site_id=455&widget_id=1467]]></Impression>
+      <Creatives>
+        <Creative id="2396">
+          <Linear skipoffset="00:00:06">
+            <Duration>00:00:10</Duration>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://panel.adexo.ir/api/v1/main/redirect?campaign_id=603&ad_id=2396&site_id=455&widget_id=1467&url=https%3A%2F%2Ftmk.ir]]></ClickThrough>
+              <ClickTracking><![CDATA[https://panel.adexo.ir/api/v1/main/click?campaign_id=603&ad_id=2396&site_id=455&widget_id=1467]]></ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="1280" height="720" bitrate="2000">
+                <![CDATA[https://adexo.89857.ir.cdn.ir/storage/upload/2025/05/17//video_DkjrOoU3NOZCyCZs.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+
 </VAST>
