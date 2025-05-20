@@ -38,15 +38,7 @@
 							</Creatives>
 						</InLine>
 					</Ad>
-				</VAST>
-			</vmap:VASTAdData>
-		</vmap:AdSource>
-	</vmap:AdBreak>
-	<vmap:AdBreak breakType="linear" timeOffset="00:15:00.000">
-		<vmap:AdSource allowMultipleAds="true">
-			<vmap:VASTAdData>
-				<VAST version="3.0">
-					<Ad id="603">
+										<Ad id="603">
 						<InLine>
 							<AdSystem>
 								<![CDATA[Adexo Ad Server]]>
