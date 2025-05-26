@@ -95,13 +95,15 @@
     							</AdTitle>
     							<Creatives>
     								<Creative>
-      <NonLinearAds>
-        <NonLinear width="300" height="50">
-          <StaticResource creativeType="image/png">https://example.com/banner.png</StaticResource>
-          ...
-        </NonLinear>
-      </NonLinearAds>
-    </Creative>
+<NonLinearAds>
+  <NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:08">
+    <StaticResource creativeType="image/png">https://example.com/banner.png</StaticResource>
+    <NonLinearClickThrough>https://example.com/click</NonLinearClickThrough>
+    <TrackingEvents>
+      <Tracking event="creativeView">https://example.com/tracking</Tracking>
+    </TrackingEvents>
+  </NonLinear>
+</NonLinearAds>
     							</Creatives>
     							<Description></Description>
     							<Survey></Survey>
