@@ -95,15 +95,15 @@
 							</AdTitle>
 							<Creatives>
 								<Creative>
-<NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:10">
-  <StaticResource creativeType="image/png">
+									<NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:10">
+										<StaticResource creativeType="image/png">
     https://via.placeholder.com/300x50.png
   </StaticResource>
-  <NonLinearClickThrough>https://example.com/clickthrough</NonLinearClickThrough>
-  <TrackingEvents>
-    <Tracking event="creativeView">https://example.com/tracking</Tracking>
-  </TrackingEvents>
-</NonLinear>
+										<NonLinearClickThrough>https://example.com/clickthrough</NonLinearClickThrough>
+										<TrackingEvents>
+											<Tracking event="creativeView">https://example.com/tracking</Tracking>
+										</TrackingEvents>
+									</NonLinear>
 								</Creative>
 							</Creatives>
 							<Description></Description>
@@ -113,7 +113,6 @@
 				</VAST>
 			</vmap:VASTAdData>
 		</vmap:AdSource>
-		<TrackingEvents></TrackingEvents>
 	</vmap:AdBreak>
 	<vmap:AdBreak breakType="linear" timeOffset="00:30:00.000">
 		<vmap:AdSource allowMultipleAds="true">
