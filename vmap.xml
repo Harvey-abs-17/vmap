@@ -84,36 +84,37 @@
 		</vmap:AdSource>
 	</vmap:AdBreak>
 	<vmap:AdBreak timeOffset="00:00:20" breakType="nonlinear" breakId="slider-11031-Z857">
-    		<vmap:AdSource id="11031-Z857" allowMultipleAds="false" followRedirects="true">
-    			<vmap:VASTAdData>
-    				<VAST version="3.0">
-    					<Ad id="28410-V185">
-    						<InLine>
-    							<AdSystem></AdSystem>
-    							<AdTitle>
-    								<![CDATA[slider_ad]]>
-    							</AdTitle>
-    							<Creatives>
-    								<Creative>
-<NonLinearAds>
-  <NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:08">
-    <StaticResource creativeType="image/png">https://example.com/banner.png</StaticResource>
-    <NonLinearClickThrough>https://example.com/click</NonLinearClickThrough>
-    <TrackingEvents>
-      <Tracking event="creativeView">https://example.com/tracking</Tracking>
-    </TrackingEvents>
-  </NonLinear>
-</NonLinearAds>
-    							</Creatives>
-    							<Description></Description>
-    							<Survey></Survey>
-    						</InLine>
-    					</Ad>
-    				</VAST>
-    			</vmap:VASTAdData>
-    		</vmap:AdSource>
-    		<TrackingEvents></TrackingEvents>
-    	</vmap:AdBreak>		
+		<vmap:AdSource id="11031-Z857" allowMultipleAds="false" followRedirects="true">
+			<vmap:VASTAdData>
+				<VAST version="3.0">
+					<Ad id="28410-V185">
+						<InLine>
+							<AdSystem></AdSystem>
+							<AdTitle>
+								<![CDATA[slider_ad]]>
+							</AdTitle>
+							<Creatives>
+								<Creative>
+									<NonLinearAds>
+										<NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:08">
+											<StaticResource creativeType="image/png">https://example.com/banner.png</StaticResource>
+											<NonLinearClickThrough>https://example.com/click</NonLinearClickThrough>
+											<TrackingEvents>
+												<Tracking event="creativeView">https://example.com/tracking</Tracking>
+											</TrackingEvents>
+										</NonLinear>
+									</NonLinearAds>
+								</Creative>
+							</Creatives>
+							<Description></Description>
+							<Survey></Survey>
+						</InLine>
+					</Ad>
+				</VAST>
+			</vmap:VASTAdData>
+		</vmap:AdSource>
+		<TrackingEvents></TrackingEvents>
+	</vmap:AdBreak>
 	<vmap:AdBreak breakType="linear" timeOffset="00:30:00.000">
 		<vmap:AdSource allowMultipleAds="true">
 			<vmap:VASTAdData>
