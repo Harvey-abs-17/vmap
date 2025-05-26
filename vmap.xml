@@ -97,8 +97,8 @@
 								<Creative>
 									<NonLinearAds>
 										<NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true">
-											<StaticResource creativeType="image/png">
-        https://storage.googleapis.com/interactive-media-ads/media/android/300x50.png
+											<StaticResource id="138442828729" creativeType="image/png">
+        https://pagead2.googlesyndication.com/simgad/7802555171787573026
       </StaticResource>
 											<NonLinearClickThrough>
         https://www.example.com
