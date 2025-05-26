@@ -96,11 +96,17 @@
 							<Creatives>
 								<Creative>
 									<NonLinearAds>
-										<NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:08">
-											<StaticResource creativeType="image/png">https://example.com/banner.png</StaticResource>
-											<NonLinearClickThrough>https://example.com/click</NonLinearClickThrough>
+										<NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true" minSuggestedDuration="00:00:10">
+											<StaticResource creativeType="image/png">
+      https://via.placeholder.com/300x50.png
+    </StaticResource>
+											<NonLinearClickThrough>
+      https://example.com/clickthrough
+    </NonLinearClickThrough>
 											<TrackingEvents>
-												<Tracking event="creativeView">https://example.com/tracking</Tracking>
+												<Tracking event="creativeView">
+        https://example.com/tracking
+      </Tracking>
 											</TrackingEvents>
 										</NonLinear>
 									</NonLinearAds>
