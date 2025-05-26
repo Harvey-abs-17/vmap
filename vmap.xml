@@ -98,14 +98,14 @@
 									<NonLinearAds>
 										<NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true">
 											<StaticResource creativeType="image/png">
-        https://via.placeholder.com/300x50.png
+        https://storage.googleapis.com/interactive-media-ads/media/android/300x50.png
       </StaticResource>
 											<NonLinearClickThrough>
-        https://example.com/click
+        https://www.example.com
       </NonLinearClickThrough>
 											<TrackingEvents>
 												<Tracking event="creativeView">
-          https://example.com/tracking
+          https://www.example.com/tracking
         </Tracking>
 											</TrackingEvents>
 										</NonLinear>
