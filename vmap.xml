@@ -96,7 +96,7 @@
                 <CompanionAds>
                   <Companion width="300" height="50">
                     <StaticResource creativeType="image/png">
-                      <![CDATA[https://storage.googleapis.com/interactive-media-ads/media/android/300x50.png]]>
+                      <![CDATA[https://www.example.png]]>
                     </StaticResource>
                     <CompanionClickThrough>
                       <![CDATA[https://www.example.com]]>
