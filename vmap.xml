@@ -83,27 +83,26 @@
 			</vmap:VASTAdData>
 		</vmap:AdSource>
 	</vmap:AdBreak>
-	<vmap:AdBreak timeOffset="00:00:20" breakType="nonlinear">
-  <vmap:AdSource allowMultipleAds="false" followRedirects="true">
+<vmap:AdBreak timeOffset="00:00:10" breakType="linear">
+  <vmap:AdSource allowMultipleAds="false">
     <vmap:VASTAdData>
       <VAST version="3.0">
-        <Ad id="28410-V185">
+        <Ad id="banner-overlay">
           <InLine>
             <AdSystem>Adexo</AdSystem>
-            <AdTitle>slider_ad</AdTitle>
+            <AdTitle>overlay-banner</AdTitle>
             <Creatives>
               <Creative>
-                <NonLinearAds>
-                  <NonLinear width="300" height="50" scalable="true" maintainAspectRatio="true">
+                <CompanionAds>
+                  <Companion width="300" height="50">
                     <StaticResource creativeType="image/png">
-                      https://storage.googleapis.com/interactive-media-ads/media/android/300x50.png
+                      <![CDATA[https://storage.googleapis.com/interactive-media-ads/media/android/300x50.png]]>
                     </StaticResource>
-                    <NonLinearClickThrough>https://www.example.com</NonLinearClickThrough>
-                    <TrackingEvents>
-                      <Tracking event="creativeView">https://www.example.com/tracking</Tracking>
-                    </TrackingEvents>
-                  </NonLinear>
-                </NonLinearAds>
+                    <CompanionClickThrough>
+                      <![CDATA[https://www.example.com]]>
+                    </CompanionClickThrough>
+                  </Companion>
+                </CompanionAds>
               </Creative>
             </Creatives>
           </InLine>
@@ -112,6 +111,7 @@
     </vmap:VASTAdData>
   </vmap:AdSource>
 </vmap:AdBreak>
+
 
 	<vmap:AdBreak breakType="linear" timeOffset="00:30:00.000">
 		<vmap:AdSource allowMultipleAds="true">
