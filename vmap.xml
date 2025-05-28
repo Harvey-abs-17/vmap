@@ -34,8 +34,6 @@
 											</MediaFile>
 										</MediaFiles>
 									</Linear>
-								</Creative>
-								<Creative id="cmp-001" adId="companion-start">
 									<CompanionAds>
 										<Companion width="300" height="50">
 											<StaticResource creativeType="image/png">
