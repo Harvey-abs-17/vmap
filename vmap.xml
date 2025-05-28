@@ -35,23 +35,23 @@
 										</MediaFiles>
 									</Linear>
 								</Creative>
-<Creative id="cmp-001" adId="companion-start">
-                <CompanionAds>
-                  <Companion width="300" height="50">
-                    <StaticResource creativeType="image/png">
-                      <![CDATA[https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-HO.png]]>
-                    </StaticResource>
-                    <CompanionClickThrough>
-                      <![CDATA[https://www.example.com]]>
-                    </CompanionClickThrough>
-                    <TrackingEvents>
-                      <Tracking event="creativeView">
-                        <![CDATA[https://example.com/tracking/creativeView]]>
-                      </Tracking>
-                    </TrackingEvents>
-                  </Companion>
-                </CompanionAds>
-              </Creative>
+								<Creative id="cmp-001" adId="companion-start">
+									<CompanionAds>
+										<Companion width="300" height="50">
+											<StaticResource creativeType="image/png">
+												<![CDATA[https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-HO.png]]>
+											</StaticResource>
+											<CompanionClickThrough>
+												<![CDATA[https://www.example.com]]>
+											</CompanionClickThrough>
+											<TrackingEvents>
+												<Tracking event="creativeView">
+													<![CDATA[https://example.com/tracking/creativeView]]>
+												</Tracking>
+											</TrackingEvents>
+										</Companion>
+									</CompanionAds>
+								</Creative>
 							</Creatives>
 						</InLine>
 					</Ad>
