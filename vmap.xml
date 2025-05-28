@@ -35,6 +35,23 @@
 										</MediaFiles>
 									</Linear>
 								</Creative>
+<Creative id="cmp-001" adId="companion-start">
+                <CompanionAds>
+                  <Companion width="300" height="50">
+                    <StaticResource creativeType="image/png">
+                      <![CDATA[https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-HO.png]]>
+                    </StaticResource>
+                    <CompanionClickThrough>
+                      <![CDATA[https://www.example.com]]>
+                    </CompanionClickThrough>
+                    <TrackingEvents>
+                      <Tracking event="creativeView">
+                        <![CDATA[https://example.com/tracking/creativeView]]>
+                      </Tracking>
+                    </TrackingEvents>
+                  </Companion>
+                </CompanionAds>
+              </Creative>
 							</Creatives>
 						</InLine>
 					</Ad>
@@ -83,56 +100,6 @@
 			</vmap:VASTAdData>
 		</vmap:AdSource>
 	</vmap:AdBreak>
-<vmap:AdBreak timeOffset="00:00:20" breakType="linear">
-  <vmap:AdSource allowMultipleAds="false" followRedirects="true">
-    <vmap:VASTAdData>
-      <VAST version="3.0">
-        <Ad id="companion-test">
-          <InLine>
-            <AdSystem><![CDATA[Adexo]]></AdSystem>
-            <AdTitle><![CDATA[Companion Test Ad]]></AdTitle>
-
-            <Impression><![CDATA[https://example.com/impression/companion10s]]></Impression>
-
-            <Creatives>
-              <!-- Dummy linear creative (1-second silent black video) -->
-              <Creative>
-                <Linear skipoffset="00:00:01">
-                  <Duration>00:00:01</Duration>
-                  <MediaFiles>
-                    <MediaFile delivery="progressive" type="video/mp4" height="1" width="1" bitrate="1">
-                      <![CDATA[https://storage.googleapis.com/interactive-media-ads/media/android/silent-1s.mp4]]>
-                    </MediaFile>
-                  </MediaFiles>
-                </Linear>
-              </Creative>
-
-              <!-- Your companion banner -->
-              <Creative id="cmp-001" adId="companion-only">
-                <CompanionAds>
-                  <Companion width="300" height="50">
-                    <StaticResource creativeType="image/png">
-                      <![CDATA[https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-HO.png]]>
-                    </StaticResource>
-                    <CompanionClickThrough>
-                      <![CDATA[https://www.example.com]]>
-                    </CompanionClickThrough>
-                    <TrackingEvents>
-                      <Tracking event="creativeView">
-                        <![CDATA[https://example.com/tracking/creativeView]]>
-                      </Tracking>
-                    </TrackingEvents>
-                  </Companion>
-                </CompanionAds>
-              </Creative>
-            </Creatives>
-          </InLine>
-        </Ad>
-      </VAST>
-    </vmap:VASTAdData>
-  </vmap:AdSource>
-</vmap:AdBreak>
-
 	<vmap:AdBreak breakType="linear" timeOffset="00:30:00.000">
 		<vmap:AdSource allowMultipleAds="true">
 			<vmap:VASTAdData>
