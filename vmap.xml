@@ -83,7 +83,7 @@
 			</vmap:VASTAdData>
 		</vmap:AdSource>
 	</vmap:AdBreak>
-<vmap:AdBreak timeOffset="00:00:10" breakType="linear">
+<vmap:AdBreak timeOffset="start" breakType="linear">
   <vmap:AdSource allowMultipleAds="false" followRedirects="true">
     <vmap:VASTAdData>
       <VAST version="3.0">
