@@ -96,7 +96,7 @@
                 <CompanionAds>
                   <Companion width="300" height="50">
                     <StaticResource creativeType="image/png">
-                      <![CDATA[https://www.example.png]]>
+                      <![CDATA[https://image.dorsa.app/medias/DogManOfficialTrailerMOVIE-HO.png]]>
                     </StaticResource>
                     <CompanionClickThrough>
                       <![CDATA[https://www.example.com]]>
